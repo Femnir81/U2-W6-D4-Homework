@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../scss/photosize.scss";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar {
+    height: 100vh;
+    background-color: rgba(169, 169, 169, 0.336);
+}
+
+a {
+    font-style: italic;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+ 
+img {
+    @include square
+}
